@@ -2,6 +2,7 @@
 layout: post
 title: Update the readme with new features
 desc: <b>amjith/fuzzyfinder</b> The simple library offering fuzzy search filtering of Python lists could use a writing hand.
+task-type: DOCS
 proj-url: https://github.com/amjith/fuzzyfinder/issues/12
 proj-num: 12
 ---

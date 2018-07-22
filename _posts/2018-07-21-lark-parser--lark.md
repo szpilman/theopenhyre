@@ -2,6 +2,7 @@
 layout: post
 title: Recreate the Lark cheatsheet with a nicer format
 desc: <b>lark-parser/lark</b> The simple library offering fuzzy search filtering of Python lists could use a writing hand.
+task-type: DESIGN
 proj-url: https://github.com/amjith/fuzzyfinder/issues/12
 proj-num: 12
 ---

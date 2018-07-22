@@ -3,9 +3,13 @@ layout: home
 ---
 
 <div class="posts clearfix">
+  <h3>Each <strong class="red">Hyre</strong> issue features &nbsp;<strong class="red">7</strong>&nbsp; simple tasks from Python projects for anyone to do:</h3>
   {% for post in site.posts %}
     <article class="post">
-      <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
+      <div class="eyebrow">
+        <span>| {{ post.date | date: "%d %b %Y" }}</span>
+        <span> | <strong>{{ post.task-type }}</strong></span>
+      </div>
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">

@@ -6,7 +6,7 @@
 name: The Open Hyre
 
 # Short bio or description (displayed in the header)
-description: <b>#1</b> 6 aug '18 <b>Guitar practice sessions with a terminal UI &amp; dmenu</b>
+description: Guitar practice sessions with a terminal UI &amp; dmenu
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://pbs.twimg.com/profile_images/1779775150/bitty-icon_bigger.gif
@@ -43,7 +43,7 @@ url: http://blog.openhyre.org
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/issue"
+baseurl: "/issue/1"
 
 #
 # !! You don't need to change any of the configuration flags below !!

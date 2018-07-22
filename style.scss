@@ -84,14 +84,19 @@ h1 {
 }
 
 #home h1.site-name {
+  background: lightyellow;
   font-size: 72px;
   line-height: 74px;
   font-weight: 700;
   max-width: 600px;
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   margin-left: 30px;
   letter-spacing: -.03em;
+  .red {
+    color: $darkRed;
+    font-size: 50px;
+  }
   a {
     color: $darkGray;
   }
@@ -108,6 +113,10 @@ h2 {
 h3 {  
   font-size: 20px;
   margin: 40px 0 10px;
+  .red {
+    color: $darkRed;
+    font-size: 24px;
+  }
 }
 
 h4 {  
@@ -121,13 +130,19 @@ p {
 }
 
 #home p.site-description {
+  background: lightyellow;
   font-size: 30px;
   font-weight: 300;
   line-height: 40px;
   max-width: 395px;
-  margin-bottom: 75px;
+  margin-bottom: 25px;
   @include mobile {
     margin: 30px 20px 60px 20px;
+  }
+  .stamp {
+    font-size: 24px;
+    font-weight: 600;
+    background: $xlightGray;
   }
 }
 #home .entry p {
