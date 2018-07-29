@@ -91,7 +91,7 @@ h1 {
   max-width: 600px;
   margin-top: 30px;
   margin-bottom: 23px;
-  margin-left: 30px;
+  margin-left: 45px;
   letter-spacing: -.03em;
   .red {
     color: $darkRed;
@@ -143,6 +143,11 @@ p {
     font-size: 24px;
     font-weight: 600;
     background: $xlightGray;
+  }
+  .tagline {
+    font-size: 34px;
+    font-weight: 600;
+    color: $darkRed;
   }
 }
 #home .entry p {
